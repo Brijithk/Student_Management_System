@@ -1,0 +1,272 @@
+.signup-inner{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 95vw;
+    background: white;
+    border-radius: 25px;
+}
+.signup-container{
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 0;
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.sign-left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-right{
+    width: 60%;
+}
+.sign-image{
+    height: 90%;
+    margin-left: 30px;
+}
+.sign-right-inner{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.sign-right-inner h2{
+    margin-bottom: 10px;
+     font-size: 35px;
+}
+.password-toggle{
+   
+  position: absolute;
+  top:10px;
+  right: 270px;
+  cursor: pointer;
+  color: #555;
+  z-index: 10;
+
+}
+.signup-p1{
+    margin-bottom: 28px;
+    color: rgb(95, 94, 94);
+    /* font-size: 13px; */
+    opacity: 70%;
+    color: rgb(85, 83, 83);
+}
+/*  */
+.form-group-1 {
+  position: relative;
+  margin-bottom: 20px;
+}
+/*  */
+.form-group-authcode{
+  position: relative;
+  margin-bottom: 20px;
+}
+.sign-authcode{
+   margin-bottom: 12px !important;
+}
+
+.form-group-authcode label {
+  position: absolute;
+  top: 18px;
+  left: 50px;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  color: #777;
+  pointer-events: none;
+}
+
+.form-group-authcode input {
+  width: 60%;
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group-authcode input:focus + label,
+.form-group-authcode input:not(:placeholder-shown) + label {
+  top: 0px;
+  left: 50px;
+  font-size: 15px;
+  color: #447cf7;
+  background: #fff;
+  padding: 0 4px;
+  z-index: 1;
+}
+
+/*  */
+.input-box-email{
+  position: relative;
+  margin-bottom: 20px;
+}
+.input-box-email input{
+   margin-bottom: 12px !important;
+}
+
+.input-box-email label {
+  position: absolute;
+  top: 18px;
+  left: 50px;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  color: #777;
+  pointer-events: none;
+}
+
+.input-box-email input {
+  width: 60%;
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-box-email input:focus + label,
+.input-box-email input:not(:placeholder-shown) + label {
+  top: 0px;
+  left: 50px;
+  font-size: 15px;
+  color: #447cf7;
+  background: #fff;
+  padding: 0 4px;
+  z-index: 1;
+}
+
+/*  */
+.form-group-1 label {
+  position: absolute;
+  top: 18px;
+  left: 50px;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  color: #777;
+  pointer-events: none;
+}
+
+.form-group-1 input {
+  width: 60%;
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group-1 input:focus + label,
+.form-group-1 input:not(:placeholder-shown) + label {
+  top: 0px;
+  left: 50px;
+  font-size: 15px;
+  color: #447cf7;
+  background: #fff;
+  padding: 0 4px;
+  z-index: 1;
+}
+
+/*  */
+.form-group-2 {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group-2 label {
+  position: absolute;
+  top: 18px;
+  left: 50px;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  color: #777;
+  pointer-events: none;
+}
+
+.form-group-2 input {
+  width: 60%;
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group-2 input:focus + label,
+.form-group-2 input:not(:placeholder-shown) + label {
+  top: 0px;
+  left: 50px;
+  font-size: 15px;
+  color: #447cf7;
+  background: #fff;
+  padding: 0 4px;
+  z-index: 1;
+}
+.form-group-3 {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group-3 label {
+  position: absolute;
+  top: 18px;
+  left: 50px;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  color: #777;
+  pointer-events: none;
+}
+
+.form-group-3 input {
+  width: 60%;
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.error-message2025 ,.error-message2026{
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: fixed;
+  top:348px;
+  left:665px;
+}
+.form-group-3 input:focus + label,
+.form-group-3 input:not(:placeholder-shown) + label {
+  top: 0px;
+  left: 50px;
+  font-size: 15px;
+  color: #447cf7;
+  background: #fff;
+  padding: 0 4px;
+  z-index: 1;
+}
+.signup-button{
+    width:60%;
+    margin-left: 23px;
+}
+.sign-right-inner p{
+    margin-left: 22px;
+}
+.sign-right-inner h2{
+   margin-left: 23px;
+}
+.sign-username{
+    margin-bottom: 12px !important;
+}
+.sign-cpass{
+    margin-bottom: 12px !important;
+}
+.sign-pass{
+    margin-bottom: 12px !important;
+}
+.error-message2024{
+    position: fixed;
+    left: 665px;
+    color:red;
+    font-size: 12px;
+    top:279px;
+}
+.sign-dpass{
+    margin-left: 150px !important;
+}

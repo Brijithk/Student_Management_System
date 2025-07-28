@@ -1,0 +1,118 @@
+.tt-pg1{
+    position: fixed;
+    top: 500px;
+    left: 700px;
+}
+.add-student-btn{
+    background-color: white;
+    color: #007bff;
+    font-size: 50px;
+    font-weight: 100;
+    width: 10px;
+}
+.user-management-main-container-h2{
+    margin-left: 50px;
+}
+.user-info-container{
+    display: flex;
+}
+.user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #d1d5db; /* light ash color */
+  background-color: #f3f4f6;  /* light gray background */
+  margin-left: 10px;
+}
+.overlay-content h2{
+          transform: translateX(-60px);
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    /* background-color: yellow; */
+    text-align: left;
+    margin-left: 20px;
+}
+/* .user-details1{
+   transform: translateX(-10px);
+}
+.user-details2{
+    margin-left: 0px;
+     transform: translateX(30px);
+}
+.user-details3{
+    margin-left: 45px;
+     transform: translateX(-15px);
+} */
+.user-management-main-container-h1{
+    transform: translateX(30px);
+}
+.tt-c1{
+    color:black;
+    position: absolute;
+    top:8px;
+    right: 110px;
+    
+}
+
+.tt-s1{
+    padding-top:0;
+    padding-bottom: 0;
+}
+.tt-s0{
+    /* padding-top:100px; */
+    /* background-color: yellow; */
+    height: 40px;
+}
+.tt-s2{
+    display: flex;
+}
+.recharts-default-legend{
+    margin-left: 600px;
+}
+.sdhdyb{
+    margin-top: 15px;
+}
+.tt-s1 {
+  height: 18px !important;  /* You can reduce this further */
+  font-size: 14px; /* Optional: to adjust text size too */
+  /* background-color: yellow; */
+  padding: 2px 8px; /* Optional: adjust padding to fit new height */
+}
+/* .close-btn{
+    background-color: none;
+    color: black !important;
+} */
+ .overlay-contentffe{
+    display: flex;
+    margin-left: 70px;
+ }
+  .overlay-contentffe h2{
+    margin-right: 30px;
+  }
+  .close-btn01{
+    margin-top: 7px;
+  }
+  
+.tt-s2 h6{
+    font-size: medium;
+    color: rgb(145, 145, 145);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+.tt-s3{
+     height: 40px;
+     width: 160px;
+     /* display: flex;
+     align-items: center;
+     justify-content: center; */
+}
+.tt-s4{
+    margin-top: 10px;
+}

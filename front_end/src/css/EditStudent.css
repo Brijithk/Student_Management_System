@@ -1,0 +1,164 @@
+.div1{
+  width:80%;
+  height:32vh;
+  background-color:  rgb(223, 223, 218);
+  margin-bottom: 30px;
+  border-radius: 15px;
+  margin-left: 30px;
+  
+}
+
+.Register-heading{
+  margin-bottom: 15px;
+  margin-left: 29px;
+}
+input{
+  margin-left: 25px;
+}
+.div2{
+   width:80%;
+  height:42vh;
+  background-color:  rgb(223, 223, 218);
+    border-radius: 15px;
+      margin-bottom: 25px;
+       margin-left: 30px;
+}
+.p1{
+  background-color: rgb(66, 66, 66);
+
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+}
+
+.p2{
+  width: 40%;
+  height: 30px;
+}
+.p3{
+  width: 40%;
+  height: 30px;
+}
+.p4{
+  width: 40%;
+  height: 30px;
+}
+.p5{
+  width: 40%;
+  height: 30px;
+}
+.p6{
+
+      background-color: rgb(66, 66, 66);
+      border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+}
+.p7{
+    width: 40%;
+  height: 30px;
+}
+.p8{
+    width: 40%;
+  height: 30px;
+}
+.p9{
+    width: 40%;
+  height: 30px;
+}
+.p10{
+    width: 40%;
+  height: 30px;
+}
+.p11{
+    width: 40%;
+  height: 30px;
+}
+.p1,.p6{
+  padding: 5px;
+  padding-left: 15px;
+  font-weight: 500;
+  color: white;
+}
+.p12{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}.p13,.p14,.p15,.p16{
+  transform: translateY(-10px);
+}
+.p6{
+  margin-bottom:15px;
+}
+.p17{
+  width: 10%;
+  float: right;
+  margin-right: 220px;
+}
+.p5{
+  position: relative;
+  top:-55px;
+  left: 382px;
+}
+.p18{
+ transform: translate(450px, -80px);
+ font-size: x-small;
+ color: red;
+}
+.input-error {
+  border: 1px solid red;
+  outline: none;
+}
+.p19{
+    position: fixed;
+  transform: translate(50px, -23px);
+ font-size: x-small;
+ color: red;
+
+}
+.p20{
+    position: fixed;
+  transform: translate(450px, -23px);
+ font-size: x-small;
+ color: red;
+
+}
+.p21{
+    position: fixed;
+  transform: translate(50px, -23px);
+ font-size: x-small;
+ color: red;
+
+}
+.p22{
+    position: fixed;
+  transform: translate(50px, -23px);
+ font-size: x-small;
+ color: red;
+
+}
+.p23{
+    position: fixed;
+  transform: translate(450px, -23px);
+ font-size: x-small;
+ color: red;
+
+}
+.p24{
+    position: fixed;
+  transform: translate(50px, -23px);
+ font-size: x-small;
+ color: red;
+
+}
+.p25{
+    position: fixed;
+  transform: translate(450px, -23px);
+ font-size: x-small;
+ color: red;
+
+}
+.p26{
+    position: fixed;
+  transform: translate(50px, -23px);
+ font-size: x-small;
+ color: red;
+
+}

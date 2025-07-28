@@ -1,0 +1,686 @@
+
+.overlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   overflow-y: auto;
+   /* margin-top: 30px; */
+}
+.um-sp1{
+  margin-left:120px ;
+}
+.row-inputs {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.input-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.um-e1{
+  font-weight: 400;
+}
+.overlay1-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 800px;
+   overflow-y: auto;
+}
+.overlay1-content input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+.input-row {
+  display: flex;
+  gap: 20px; /* space between Roll No and Name */
+  margin-bottom: 20px;
+}
+/* input{height: 5px;} */
+.input-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  /* text-align: center; */
+    /* padding-left: 10px; */
+}
+
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+   /* text-align: center; */
+   /* padding-left: 10px; */
+}
+
+.gender-toggle {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.gender-toggle button {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.2s;
+    color: black;
+}
+
+.gender-toggle button.selected {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+.term-marks-row {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 15px;
+ margin-left: 120px;
+}
+
+.term-mark-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.term-pair{
+  margin-left: 20px;
+}
+.term-mark-field label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.term-mark-field input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.term-marks-row {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap; /* makes it responsive on smaller screens */
+  margin-bottom: 16px;
+}
+
+.term-pair {
+  display: flex;
+ 
+  gap: 8px;
+  
+}
+
+.term-pair label {
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.term-pair input {
+ 
+  width: 160px;
+  padding: 6px;
+}
+.term-marks-row {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 16px; /* space between each subject block */
+  margin-bottom: 16px;
+  /* flex-wrap: wrap; */
+}
+
+.term-mark-field {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center; /* optional: center align label and input */
+  flex: 1; /* distribute equal width */
+  min-width: 100px; /* prevents fields from becoming too narrow */
+}
+
+.term-mark-field label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.term-mark-field input {
+  padding: 6px 8px;
+  width: 100%;
+  max-width: 120px;
+}
+.term-marks-row {
+  display: flex;
+  gap: 24px; /* spacing between each subject block */
+  flex-wrap: wrap; /* wrap if screen is small */
+  margin-bottom: 16px;
+}
+
+.term-mark-field {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: start;
+}
+
+.term-mark-field label {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.term-mark-field input {
+  padding: 6px 8px;
+  min-width: 120px;
+}
+.um-e1{
+  margin-left: 80px;
+}
+.button-row {
+  display: flex;
+  gap: 12px; /* space between buttons */
+  margin-top: 16px; /* optional: space above buttons */
+  justify-content: flex-end; /* or center/space-between as needed */
+}
+
+/*  */
+.um-00{
+  height: 40px;
+
+}
+.um-201{
+   position: fixed;
+    top: 500px;
+    left: 700px;
+}
+.um-002{
+  width: 30%;
+}
+.um-01{
+  height: 40px;
+}
+.section-filter {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.section-filter button {
+  padding: 5px 12px;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.section-filter button.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.pd-align{
+  display: flex;
+}
+.action-container {
+  position: relative;
+  display: inline-block;
+}
+.rank-toggle {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f2f4f7;
+  border-radius: 20px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  transition: background-color 0.3s ease;
+  border: 1px solid transparent;
+  /* margin-left: 640px;
+  position: fixed;
+  top:50px;
+  left:540px; */
+  margin-right: 10px;
+}
+
+.rank-toggle:hover {
+  background-color: #e0e7ff;
+}
+
+.rank-toggle.active {
+  background-color: #dbeafe;
+  border-color: #93c5fd;
+  color: #1d4ed8;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  padding: 8px 0;
+  z-index: 10;
+}
+
+.dropdown-menu div {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown-menu div:hover {
+  background-color: #dfdede;
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+   /* background-color: rgb(214, 213, 216); */
+}
+.penimg{
+  margin-left: 15px !important;
+  margin-right: 25px !important;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 350px;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-content h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.marks-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.marks-table th,
+.marks-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-transform: capitalize;
+}
+
+.close-btn {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background: #0056b3;
+}
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.pass-dot {
+  background-color: green;
+}
+
+.fail-dot {
+  background-color: red;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  min-width: 60px;
+}
+
+.pass-badge {
+  background-color: #4ade80; /* green */
+  color: white;
+}
+
+.fail-badge {
+  background-color: #fc4a4a; /* red */
+  color: white;
+}
+
+.add-user-button{
+  width: 10%;
+  float: right;
+  /* background-color: blue; */
+}
+.user-management-main-container {
+   background-color: white;
+}
+.user-right-side h1{
+  /* color: #222222;
+   */
+   color:  rgb(68, 124, 247);
+  width: 50%;
+  display: inline;
+  /* margin-bottom: 30px; */
+}
+th{
+  color: rgb(68, 124, 247);
+}
+.user-table{
+  /* padding-top: 30px; */
+  /* background-color: yellow; */
+  width: 100%;
+  border-spacing: 0 12px;
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);  */
+  margin-top: 40px;
+   margin-top: 40px;
+  border-radius: 15px;
+}
+.user-right-side{
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+  border: 1px solid rgb(151, 151, 151) ;
+}
+td{
+  text-align: center;
+}
+.user-right-side {
+  width: 100%;
+  /* padding: 20px; */
+   /* background-color: rgb(235, 235, 230);
+    */
+    /* background-color: rgb(72, 219, 245); */
+    /* background-color:  rgb(68, 124, 247); */
+   padding: 20px;
+   height: 80vh;
+   border-radius: 15px;
+}
+.action-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.action-icon1 {
+  width: 14px;
+  height: 14px;
+  margin: 0 8px;
+  cursor: pointer;
+  margin-top: -6px;
+  /* background-color: yellow; */
+  margin-bottom: 5px;
+}
+.modern-pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pagination-button {
+  color: #007bff;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s ease;
+}
+
+.pagination-button:hover {
+  color: #0056b3;
+}
+
+.pagination-button.disabled {
+  color: #797878;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pagination-input-number {
+  width: 40px;
+  padding: 5px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+.pagination-input-number::-webkit-outer-spin-button,
+.pagination-input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pagination-input-number {
+  -moz-appearance: textfield; /* For Firefox */
+}
+
+.td1{
+
+   color: #181717;
+  font-weight: 500;
+}
+td{
+   color: #313030;
+}
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.pass-dot {
+  background-color: green;
+}
+
+.fail-dot {
+  background-color: red;
+  margin-right: 12px;
+}
+
+/* NEW: status text to align nicely with dot */
+.status-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 0px 10px;
+  width: 250px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  margin: 0;
+}
+
+.search-icon {
+  color: #666;
+  margin-right: 2px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  background-color: transparent;
+  margin: 0;
+}
+
+.user-management-main-container h1{
+      margin-bottom: 15px;
+}
+.section-dropdown-container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.um-001{
+  margin-left: 40px;
+  margin-right: 10px;
+  padding-top: 5px;
+  color: rgb(107, 107, 107);
+}
+.um-02{
+   height: 40px;
+   margin: 0;
+   margin-left: 10px;
+}
+.section-dropdown {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  /* padding-right: 20px; */
+}
+.um-03{
+  height: 40px;
+ /* margin-right: 20px; */
+   border: 1px solid transparent;
+   border-radius: 20px;
+     background-color: #f2f4f7;
+     /* padd */
+}
+.um03 option {
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+ 
+}
+
+.um-03 {
+  appearance: none;               /* Hide default dropdown arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 20 20' fill='gray' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.27a.75.75 0 01.02-1.06z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center; /* Position arrow */
+  background-size: 1rem;
+
+  padding: 6px 2.5rem 6px 12px; /* Extra right padding for arrow space */
+  font-size: 14px;
+  border: 1px solid #ccc;
+   border: 1px solid transparent;
+   border-radius: 20px;
+  color: #333;
+   background-color: #f2f4f7;
+  cursor: pointer;
+}
+/*  */
+/* react-select styles */
+.custom__control {
+  border-radius: 20px;
+  background-color: #f2f4f7;
+  border: none;
+  font-size: 14px;
+  height: 40px;
+  padding: 2px 10px;
+}
+
+.custom__menu {
+  background-color: #fff;
+  border-radius: 12px;
+  /* padding: 4px 0; */
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+  z-index: 5;
+}
+
+.custom__option {
+  /* padding: 10px 16px; */
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  background-color: yellow;
+}
+
+.custom__option--is-focused {
+  background-color: #e0e7ff;
+}
+
+.custom__option--is-selected {
+  background-color: #c7d2fe;
+  font-weight: bold;
+}
+/* Override any unwanted border or pseudo-elements */
+.section-dropdown-react {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: yellow;
+}
+
+/* If there's a vertical line due to a pseudo-element */
+.section-dropdown-react::after,
+.section-dropdown-react::before {
+  display: none !important;
+}
+.user-management-main-container{
+  background: rgb(204, 204, 204);
+}
+.user-right-side{
+  background-color: white;
+}

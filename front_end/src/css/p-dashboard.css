@@ -1,0 +1,142 @@
+.pd-left{
+    width: 68%;
+}
+.recharts-bar-rectangle:focus,
+.recharts-bar-rectangle:active {
+  outline: none;
+  stroke: none;  /* remove any border stroke if applied */
+}
+.recharts-bar-rectangle:focus,
+.recharts-bar-rectangle:active,
+.recharts-rectangle:focus,
+.recharts-rectangle:active {
+  outline: none !important;
+  stroke: none !important;
+  border: none !important;
+}
+.recharts-tooltip-wrapper {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.recharts-wrapper svg:focus {
+  outline: none !important;
+}
+.pd-right{
+    flex: 1;
+    padding: 5px;
+    /* float: right; */
+}
+.pd-container{
+    display: flex;
+}
+.dropdown-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.dropdown-container.show {
+  max-height: 200px; /* enough to fit all dropdown items */
+}
+.pd-change{
+  display:flex;
+  width: 80%;
+}
+.pd-modern-class-btn {
+  background: linear-gradient(to right, #3b82f6, #6366f1); /* Blue to Indigo */
+  color: #6366f1;
+  background: white;
+  /* padding: 5px 8px; */
+  border: 1px solid  #6366f1;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width:115px;
+  height: 27px;
+  margin-left: 300px;
+  /* margin-left: auto; */
+}
+
+.pd-modern-class-btn:hover {
+  /* transform: scale(1.05); */
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+.pd-modern-class-btn.active {
+  background: linear-gradient(to right, #3b82f6, #6366f1); /* Blue to Indigo */
+  color: white;
+  border: none;
+}
+.pd-modern-class-bt {
+  background: linear-gradient(to right, #3b82f6, #6366f1); /* Blue to Indigo */
+  color: #6366f1;
+  background: white;
+  /* padding: 5px 8px; */
+  border: 1px solid  #6366f1;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width:115px;
+  height: 27px;
+  margin-left: 20px;
+  /* margin-left: auto; */
+}
+
+.pd-modern-class-bt:hover {
+  /* transform: scale(1.05); */
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+.pd-modern-class-bt.active {
+  background: linear-gradient(to right, #3b82f6, #6366f1); /* Blue to Indigo */
+  color: white;
+  border: none;
+}
+.pd-passGraph{
+  /* background: yellow; */
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+.pd-avgGraph{
+border: 1px solid rgb(167, 167, 167);
+/* padding: 10px; */
+/* padding-left: 30px; */
+border-radius: 25px;
+}
+.pd-avgGraph h2{
+  /* background: #3b82f6;
+  color: antiquewhite; */
+  /* margin-right: 30px; */
+  width: 50%;
+
+}
+.pd-passGraph h2{
+   /* background: #3b82f6;
+  color: antiquewhite; */
+    width: 70%;
+}
+.pd-right{
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 25px;
+}
+.pd-font{
+  font-size: small;
+}
+.pd-s1{
+   border: 1px solid rgb(177, 177, 177);
+   border-radius: 15px;
+}
+.pd-passGraph{
+  background-color:white ;
+}
+.pd-avgGraph{
+  background-color: white;
+}
+.pd-right{
+  background-color: white;
+}
